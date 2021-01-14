@@ -1,0 +1,81 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* VARIABLES */
+:root {
+      /* Länktext som står i menyn */
+      --heading-main: 'start'; 
+      --heading-services: 'tjänster';
+      --heading-about: 'om mig';
+      --heading-contact: 'kontakt';
+      --heading-kurser: 'kurser';
+      --heading-gamlasajten: 'gamla sajten';
+      --heading-cv: 'cv';
+      --heading-mall: 'mall'; 
+}
+
+/* Detta ändrar allt som är rem-baserat! */
+/* overrides 62.5% i reset.css */
+/*  html {
+    font-size: 75%;  
+} */ 
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /*1rem = 10px*/
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+ 
+
+/* vanliga länkar - ej navbar! */ 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+#fl-contact #maejl::after { 
+  content: 'alfabeta@adastramedia.se';
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  h1 {
+      font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+      font-size: 4.5rem;
+  }
+}
+
+
+
+
+

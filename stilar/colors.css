@@ -1,0 +1,80 @@
+/* VARIABLES */
+:root {
+    /* Navigation colors */
+    --navigation-link-color: #600;
+    --navigation-link-color-hover:#fff;
+    --navigation-link-color-current:#e62e00;
+    --navigation-dropdown-bg-color: var(--page-banner-color);
+    --navigation-hamburger-color: var(--base-text-color);
+
+    /* Banner colors */
+    --page-banner-color: transparent; /* don't change this! */
+    --main-banner-color: #ada397;
+    --about-banner-color: #d6cbd3;
+    --services-banner-color: #bdcebe;
+    --contact-banner-color: #eca1a6;
+    --kurser-banner-color: #f3d168; 
+    --gamlasajten-banner-color: #EDC68E;
+    --cv-banner-color:#5FC3C1; 
+    --mall-banner-color: #EFA740; 
+}
+
+body {
+    background-color: #e6e2d3;
+    color: #404040;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;     
+}
+
+.page-header {
+    background-color: var(--page-banner-color);
+}
+
+.page-footer {
+    background-color: var(--page-banner-color);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: var(--navigation-link-color);
+}
+
+
+/* NAVIGATION */
+#mainNav {
+    background-color: transparent;
+  }
+  #mainNav .navbar-toggler {
+      background-color: transparent;    
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: var(--navigation-link-color);
+    transition:  color .3s ease-in-out;
+  }
+  
+  #mainNav .navbar-nav #currentpage .nav-link{
+    color: var(--navigation-link-color-current);
+   
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link:hover,
+  #mainNav .navbar-nav #currentpage .nav-link:hover {
+    color: var(--navigation-link-color-hover);
+  }
+  
+  #navbar-logo:hover #logo-shape {
+    fill:  var(--navigation-link-color-hover);
+    stroke:  var(--navigation-link-color-hover);
+  }
+  
+  button {
+    color: var(--navigation-link-color);
+  }
+
+  .navbar-nav {
+    background-color: var(--navigation-dropdown-bg-color);
+  }

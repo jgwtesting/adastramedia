@@ -1,0 +1,124 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 19vh;
+  padding-bottom: 12vh;
+}
+
+.page-header {
+  min-height: 19vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;  
+  margin-bottom: 2rem; 
+}
+
+.page-footer {
+  min-height: 12vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;          
+}
+
+/* .page-header, .page-footer {
+   margin: 0 auto;
+} */
+
+/* Section */
+.page-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+/* MEDIA QUERIES ***************************************************************************************/
+
+/* Media queries container */
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 300px;
+        /* padding-left: 1.5rem;
+        padding-right: 1.5rem; */
+    }
+    /* .row {
+      margin-left: -70px;
+      margin-right: -70px;
+    } */
+}
+
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+  #fl-contact {
+    margin-bottom: 2.5rem;
+  }
+ 
+}
+
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+     max-width: 1200px;
+  }
+}
+
+/* When does banner/footer width adapt to container width */
+@media (min-width: 1200px) {
+  .page-header, .page-footer {
+      max-width: 1200px;
+  }
+  .page-section {
+    /* padding-right: 6rem;
+    padding-left: 6rem; */
+    
+  }
+  
+}
+@media (min-width: 1536px) {
+  .page-section {
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
+  }
+}
+
+@media (max-width: 992px){
+  .container {
+    max-width: 100vw;
+  } 
+ }
+
+
+ 
+
+
+
+#fl-contact {
+  margin-bottom: 3rem;
+}
+
+
+/* Helpers classes ***************************************************************************************/
+.center-v {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center-vh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+

@@ -1,0 +1,62 @@
+/* Positioning of hamburger/cross toggler(parent of the icons)*/
+.navbar-toggler {
+  z-index: 10; 
+  position: relative;
+}
+
+
+@media (max-width: 991px) { 
+      /* .navbar {
+        position: static; 
+      } */
+     
+       /* Positioning of drop down menu */
+      .navbar-collapse { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        z-index: 8;
+      }
+        
+      .navbar-nav {
+        width: 100vw;
+        padding: 3rem 0;
+        text-align: center;
+      }
+
+      /* Positioning of hamburger */
+      #button-hamburger,
+      #button-cross {
+        position: absolute;
+        top: -.6rem;
+        right: 0;
+      }
+      /* Positioning of cross */ 
+      #button-cross {
+        right: 0.15rem;
+      }
+      /* No outline on pressed icon */
+      button:focus {
+        outline: none;
+      }
+ 
+
+}
+
+/* The logo */
+.navbar-brand {
+ 
+} 
+
+
+/* ändra mått fredrik */
+ /* .navbar {
+   padding: .5rem;
+ } */
+
+ /* Flytta upp menytext */
+ #navbarResponsive {
+   /* margin-top: -3rem; */
+ }
+
+

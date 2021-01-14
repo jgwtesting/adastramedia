@@ -1,0 +1,28 @@
+Om du flyttar siten(mappen) till en annan plats(mapp) på servern:
+    -Gå in i delar/path.php och uppdatera den relativa sökvägen.
+
+Om du vill lägga till en sida:
+    1. Kopiera filen mall.php och döp den nya filen till xxx.php 
+    2. Längst ned i stilar/variables, avsnitt "NY SIDA", följ instruktioner.
+    3. I delar/alternate.php, avsnitt "NY SIDA", följ instruktioner.
+    4. I delar/navigation, 2st avsnitt "NY SIDA", följ instruktioner.
+
+För de flesta övriga ändringar, som kan vara aktuellt:
+    -Ändra respektive variabel i stilar/variables.css
+
+I moduler.php hittar man olika exempel på sidlayout.
+
+
+
+
+
+
+
+
+        
+    
+    
+
+
+   
+   
