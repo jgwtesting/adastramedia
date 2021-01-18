@@ -24,8 +24,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    /*1rem = 10px*/
-    font-size: 1.6rem;
+    /*1rem = 10px - så 1.6rem = 16px*/
+    font-size: 1.6rem; 
 }
 
 h1, h2, h3, h4, h5, h6{

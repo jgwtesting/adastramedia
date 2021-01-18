@@ -13,12 +13,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <!-- Local css -->
-   <!-- <link href="stilar/NySida-variables.css" rel="stylesheet" />-->
-   <link href="stilar/reset.css" rel="stylesheet" />
+    <!-- <link href="stilar/NySida-variables.css" rel="stylesheet" />-->
+    <link href="stilar/reset.css" rel="stylesheet" />
     <link href="stilar/typography.css" rel="stylesheet" />
     <link href="stilar/colors.css" rel="stylesheet" />
     <link href="stilar/layout.css" rel="stylesheet" />
-    
     <link href="stilar/navigation.css" rel="stylesheet" />
     <link href="stilar/fredriks.css" rel="stylesheet" />
 

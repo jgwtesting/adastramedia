@@ -150,7 +150,7 @@ if ( $_SERVER[ 'REQUEST_URI' ] == $path . 'about.php' ) {
 
 
 <div class="text-center">
-    <h1 class="section-heading">
+    <h1>
         <?php 
             echo $heading; 
         ?>

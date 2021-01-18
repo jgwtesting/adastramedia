@@ -19,6 +19,8 @@
     --mall-banner-color: #EFA740; 
 }
 
+
+/* BASE COLORS */
 body {
     background-color: #e6e2d3;
     color: #404040;
@@ -28,11 +30,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #1a1a1a;     
 }
 
-.page-header {
+header {
     background-color: var(--page-banner-color);
 }
 
-.page-footer {
+footer {
     background-color: var(--page-banner-color);
 }
 

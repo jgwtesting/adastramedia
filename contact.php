@@ -17,9 +17,8 @@
         
         <!-- Contact -->
         
-        <section class="page-section container d-flex  justify-content-center align-center flex-column">
+        <main class="container d-flex  justify-content-center align-center flex-column">
 
-                   
         <!-- frontend funkar, med freriks original js form check -->    
         <div class="row">
                 <div class="col-md d-flex flex-column justify-content-center align-items-center">
@@ -82,7 +81,7 @@
 
         
 
-        </section> 
+</main> 
 <!-- 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -14,7 +14,7 @@
         ?>
 
         <!-- Template -->
-        <section class="page-section container">
+        <main class="container">
           <div class="row">
       <div class="col-md">
                <h3 class="my-3  text-center">FILMOGRAFI</h3>
@@ -130,7 +130,7 @@ Fram till ca år 2000 verksam som frilansjournalist med uppdrag för dagspress o
 <a class="fetRoedlaenk" href="https://www.adastramedia.se/003.html#radio" target="_blank">Exempel på program »</a></p>
                     
              </div></div>
-        </section>
+</main>
 
         <?php 
              include 'delar/scripts.php'; 

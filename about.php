@@ -10,13 +10,11 @@
 <body>
 
     <?php 
-            include 'delar/header.php'; 
-        ?>
+        include 'delar/header.php'; 
+    ?>
 
-    <!-- About -->
-
-
-    <section class="page-section container">
+    
+    <main class="container">
         <div class="row">
             <div class="col-md">
                <h3 class="my-3 text-center">FILMMANUS</h3>
@@ -38,23 +36,16 @@
             <img src="assets/pics/FramSida_230x333_NY.png" width="230" height="333"  class="img-fluid " alt=""/>
             <p class=""><a href="https://www.attskrivafilmmanus.se" target="new" class="" >www.attskrivafilmmanus.se</a></p>  </div>
         </div>
-
-
-
-            </div>
-<hr>
+          
+        <hr>
    
-         <div class="row">
-                <div class="col-md d-flex justify-content-center align-items-center flex-column">
-                 
-                               <p>&nbsp;</p>
-                               <p><img src="assets/pics/Samlade-600.jpg" class="img-fluid bild600" alt="cinema"></p>
-                </div>
-      </div>
-         
-  
-
-    </section>
+        <div class="row">
+            <div class="col-md d-flex justify-content-center align-items-center flex-column">
+                <p>&nbsp;</p>
+                <p><img src="assets/pics/Samlade-600.jpg" class="img-fluid bild600" alt="cinema"></p>
+            </div>
+        </div>
+   </main>
 
     <?php 
              include 'delar/scripts.php'; 

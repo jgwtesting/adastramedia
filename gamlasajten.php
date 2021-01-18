@@ -15,7 +15,7 @@
         <?php 
             include 'delar/header.php'; 
         ?> 
-           <section class="page-section container">
+           <main class="container">
 
             <!-- Content goes beneath here---------------------------------------------------------------->  
 
@@ -79,7 +79,7 @@
 
              <!-- Content goes above here ---------------------------------------------------------------->  
             
-        </section>
+</main>
 
         <?php 
              include 'delar/scripts.php'; 

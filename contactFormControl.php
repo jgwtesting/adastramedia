@@ -15,7 +15,7 @@
 
      <!-- Contact Form Control -->
 
-    <section class="page-section container">
+    <main class="container">
         <div class="row">
             <div class="col d-flex justify-content-center">       
               <!-- <div class="text-center"> -->
@@ -78,7 +78,7 @@
               </div>
             </div>
         </div>
-    </section>
+</main>
 
 
     
