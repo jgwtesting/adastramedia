@@ -47,18 +47,18 @@
                     
 
                           <div><strong>Meddelande</strong>:</div>
-                          <div><strong>
+                          <div><strong class="text-info">
                             <?php echo $KontaktMeddelande ?> &nbsp;</strong></div>
                       
                   
                           <div><strong>Mailadress:</strong></div>
-                          <div><strong class="RoedMarkering"><?php echo $KontaktEmail ?></strong></div>
+                          <div><strong class="text-info"><?php echo $KontaktEmail ?></strong></div>
 
                     <div><strong>GDPR:</strong></div>
-                          <div><strong class="RoedMarkering"><?php echo $GDPR ?></strong></div>
+                          <div><strong class="text-info"><?php echo $GDPR ?></strong></div>
                             
                           <div><strong>SPAM:</strong></div>
-                          <div><strong class="RoedMarkering"><?php echo $SPAM ?></strong></div>
+                          <div><strong class="text-info"><?php echo $SPAM ?></strong></div>
                           
                                   
 

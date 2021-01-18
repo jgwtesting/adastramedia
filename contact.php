@@ -47,7 +47,7 @@
 
                         <!-- Meddelande -->
                         <div class="form-group">
-                            <label for="Meddelande">Meddelande*</label>
+                            <label for="Meddelande">Meddelande</label>
                             <textarea name="Meddelande" id="Meddelande" class="form-control" id="Meddelande" rows="3"  placeholder="Skriv meddelande här..."></textarea>
                         </div>
 
@@ -65,8 +65,56 @@
                             <input type="checkbox" class="form-check-input" name="GDPR" id="GDPR">
                             <label class="form-check-label ml-2" for="exampleCheck1">Jag godkänner att uppgifterna lagras</label>
                             <small class="form-text text-muted">
-                                Adastra media lämnar aldrig ut personuppgifter till tredje part. 
+                                Adastra media lämnar aldrig ut personuppgifter till tredje part. <a href="#" data-toggle="modal" data-target="#exampleModal">Se GDPR >></a>
                             </small>
+                           
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">GDPR</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <h2>GDPR</h2>
+                                      <h3>POLICY KAKOR (cookies) och PERSONUPPGIFTER</h3>
+                                      Sajten använder kakor (cookies) från <a href="http://statcounter.com/" target="_blank">STATCOUNTER</a> för att samla besöksstatistik.<br><br>
+                                      Se Statcounters policy för kakor HÄR »<br><br>
+                                      De tekniska uppgifter som samlas om besökare via Statcounter är:<br>
+
+                                      -Detaljer om webbläsare som används.<br>
+
+                                      -Genom IP-adressen kartläggs vilket land besöket kommer ifrån.<br>
+
+                                      -Om besökaren kommit via en länk, och i så fall vilken sajt som länkat (t.ex. sökmotorer).<br>
+
+                                      Vilka sidor på adastramedia.se som besökaren öppnat.<br><br>
+
+                                      
+
+                                      Inga annonser baserade på kakor visas på denna sajt.<br><br>
+
+                                      För mail som skickas via kontaktsidan eller andra formulär, där besökaren skriver in personuppgifter som t.ex. mailadress, telefonnummer eller meddelanden, lagras uppgifterna i syfte att åsyftad kommunikation ska fungera.<br><br>
+
+                                      Ansvarig för sajten adastramedia.se :<br>
+                                      Fredrik Lindqvist, Övre Bergsvägen 7, 12634 Hägersten.<br><br>
+
+
+                                      adastra media lämnar aldrig ut personuppgifter till tredje part.<br><br>
+
+                                      Gå via <a href="<?php echo $path . 'contact.php' ; ?>" target="_blank">KONTAKTSIDAN »</a>för eventuella frågor eller synpunkter.<br>
+                                      Där kan du också skicka ett meddelande för att få eventuellt lagrade personliga uppgifter raderade.
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok, jag förstår</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                             
                         </div>
                         
                         <!-- Buttons -->

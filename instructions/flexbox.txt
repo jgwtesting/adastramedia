@@ -1,0 +1,48 @@
+Klasser att använda:
+
+1. d-flex
+Obligatorisk
+
+2. align-items-center
+Centrerar vertikalt (upp-ner)
+
+3. justify-content-center
+Centrerar horisontellt (höger-vänster)
+
+***************************************************************************************
+    Klasserna justerar alltså DIREKTA "children" till den taggen där de används!
+    T ex centreras såväl <div> som den <p> vilken innehåller "More".
+    De övriga <p> inne i <div> berörs alltså inte - utan <div> som helhet.
+
+    <header class="d-flex justify-content-center">
+        <div>
+            <p>Lorem</p>
+            <p>Ipsum</p>
+        <div>
+        <p>More</p>
+    </header>
+
+    Skulle man vilja justera även <p> inne i <div> måste klasser anges i <div>.
+*******************************************************************************************
+
+4. flex-column
+Huvudaxeln för justify-content och align-items är flex-row. Detta är default behöver inte anges.
+I enstaka fall blir det nädvändigt att ange klassen flex-column. 
+Då kastas huvudaxeln om och perspektivet blir kolumnbaserat istället.
+
+Enklaste sättet att förklara/förstå detta är att se resultatet av att avlägsna flex-column i filen index.php
+Så prova det; ta bort klassen flex-column nedan!
+
+********************************************************************************************
+    <div class="col-md d-flex justify-content-center align-items-center flex-column">
+        <img src="assets/pics/IMDB_300.jpg" width="250" class="img-fluid" alt="" />
+        <p class="font-italic"> Fredrik Lindqvist</p>
+    </div>
+*******************************************************************************************
+
+Läs mer om flexbox om du vill:
+https://getbootstrap.com/docs/4.0/utilities/flex/
+https://www.w3schools.com/bootstrap4/bootstrap_flex.asp
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
