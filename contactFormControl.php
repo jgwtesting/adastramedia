@@ -15,7 +15,7 @@
 
      <!-- Contact Form Control -->
 
-    <main class="container">
+    <main class="container d-flex justify-content-center align-items-center">
         <div class="row">
             <div class="col d-flex justify-content-center">       
               <!-- <div class="text-center"> -->

@@ -33,7 +33,7 @@
             </div>
          <div class="col-md d-flex align-items-center justify-content-center flex-column">
             <h3 class="my-3">MANUSBOKEN</h3>
-            <img src="assets/pics/FramSida_230x333_NY.png" width="230" height="333"  class="img-fluid " alt=""/>
+            <img src="assets/pics/FramSida_230x333_NY.png" width="175" alt=""/>
             <p class=""><a href="https://www.attskrivafilmmanus.se" target="new" class="" >www.attskrivafilmmanus.se</a></p>  </div>
         </div>
           
